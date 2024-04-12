@@ -732,7 +732,7 @@ async fn serve_namespace(
     namespace: &str,
     repo_update: RepoUpdate,
 ) -> josh::JoshResult<()> {
-    const SERVE_TIMEOUT: u64 = 60;
+    const SERVE_TIMEOUT: u64 = 600;
 
     tracing::trace!(
         command = ?params.command,
