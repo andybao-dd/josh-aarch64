@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.6-labs@sha256:bd24901c537a316a4802d920bf86605f4db8ef676ef7258a3b381e12d90c62c8
 
 ARG ALPINE_VERSION=3.18
-ARG ARCH=x86_64
+ARG ARCH=aarch64
 
 FROM alpine:${ALPINE_VERSION} as rust-base
 
